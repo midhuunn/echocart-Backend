@@ -22,6 +22,7 @@ namespace EchoCart_Backend.Repositories.impl
 
                 response.code = 200;
                 response.message = "Sucess";
+
                 response.companyMasterData = CompaniesList;
             }
             catch (Exception ex)
